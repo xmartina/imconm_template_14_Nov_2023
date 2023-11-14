@@ -1,0 +1,213 @@
+/*
+Theme Name: Univero
+Theme URI: https://ninzio.com/univero
+Author: Ninzio
+Author URI: https://ninzio.com/
+Description: Univero is clean theme, it's used Ninzio Framework.
+Version: 1.3
+License: Split License
+License URI: https://help.market.envato.com/hc/en-us/articles/202501064-What-is-Split-Licensing-and-the-GPL-
+Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: univero
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+.media-left img{
+    max-width: none;
+}
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+.gallery-caption {
+    box-sizing: border-box;
+}
+.bypostauthor{
+    box-sizing: border-box;
+}
+.wpml-ls-legacy-dropdown .wpml-ls-flag + span {
+    color: #999999;
+}
+
+.archive-shop .ninzio-pagination span.next::before,
+.archive-shop .ninzio-pagination a.next::before
+{content:'';}
+
+.archive-shop .ninzio-pagination span.prev::before,
+.archive-shop .ninzio-pagination a.prev::before
+{content:'';}
+
+/* Megamenu mobile custom styling */
+
+@media (max-width: 1024px) {
+#ninzio-header-mobile .navbar-offcanvas .navbar-nav .menu-megamenu-container li.active > a {
+background-color: #282b31;
+color: #999999 !important;
+}
+
+#main-mobile-menu .has-submenu > .sub-menu li > a,
+#main-mobile-menu .widget .widgettitle {
+font-size: 13px;
+text-align: center;
+}
+
+#main-mobile-menu .has-submenu > .sub-menu .menu-megamenu-container li:last-child > a {
+border-bottom: 1px solid #3e4146;
+}
+
+#main-mobile-menu .vc_col-sm-3 {
+width: 100%;
+}
+
+.navbar-nav .sub-menu .widget-title:before, .navbar-nav .sub-menu .widgettitle:before {
+width: 100%;
+height: 1px;
+background-color: #3e4146; 
+}
+
+.header-mobile .widget {
+margin-left: 0px;
+margin-right: 0px;
+}
+}
+
+/* Hero sections responsive custom styling */
+
+@media (max-width: 1880px) {
+.mobile-padding-0 .vc_column-inner {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+}
+
+@media (max-width: 1500px) {
+.mobile-padding-0 .vc_column-inner {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+}
+
+@media (max-width: 1600px) {
+.hidden-class-1 {
+    display: none;
+}
+}
+
+@media (max-width: 1400px) {
+.hidden-class-2 {
+    height: 40px !important;
+}
+}
+
+.widget_shopping_cart_content .cart_list  img {
+    max-width: 80px;
+}
+
+.vc_column_container {
+    z-index: 9999;
+}

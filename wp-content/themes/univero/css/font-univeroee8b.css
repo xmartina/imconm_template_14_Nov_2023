@@ -1,0 +1,332 @@
+@font-face {
+  font-family: 'univero';
+  src:  url('../fonts/univero4a47.eot?xfrqv2');
+  src:  url('../fonts/univero4a47.eot?xfrqv2#iefix') format('embedded-opentype'),
+    url('../fonts/univero4a47.ttf?xfrqv2') format('truetype'),
+    url('../fonts/univero4a47.woff?xfrqv2') format('woff'),
+    url('../fonts/univero4a47.svg?xfrqv2#univero') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="univero-"], [class*=" univero-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'univero' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.univero-padlock:before {
+  content: "\e901";
+}
+.univero-padlock-unlock:before {
+  content: "\e902";
+}
+.univero-certificate:before {
+  content: "\e909";
+}
+.univero-location:before {
+  content: "\e90a";
+}
+.univero-level:before {
+  content: "\e90c";
+}
+.univero-time:before {
+  content: "\e914";
+}
+.univero-book:before {
+  content: "\e925";
+}
+.univero-share:before {
+  content: "\e926";
+}
+.univero-clock-circular-outline:before {
+  content: "\e927";
+}
+.univero-map:before {
+  content: "\e928";
+}
+.univero-chat:before {
+  content: "\e929";
+}
+.univero-pen:before {
+  content: "\e92a";
+}
+.univero-image:before {
+  content: "\e92b";
+}
+.univero-dollar:before {
+  content: "\e92c";
+}
+.univero-calendar:before {
+  content: "\e92d";
+}
+.univero-bookmark:before {
+  content: "\e92e";
+}
+.univero-chat2:before {
+  content: "\e933";
+}
+.univero-users:before {
+  content: "\e934";
+}
+.univero-questionlar-black-background:before {
+  content: "\e937";
+}
+.univero-star:before {
+  content: "\e938";
+}
+.univero-star-half-empty:before {
+  content: "\e93e";
+}
+.univero-star-empty:before {
+  content: "\e93f";
+}
+.univero-heart1:before {
+  content: "\e94f";
+}
+.univero-heart2:before {
+  content: "\e951";
+}
+.univero-pencil:before {
+  content: "\e900";
+}
+.univero-pin:before {
+  content: "\e952";
+}
+.univero-quote:before {
+  content: "\e956";
+}
+.univero-portfolio-menu:before {
+  content: "\e903";
+}
+.univero-play-button:before {
+  content: "\e904";
+}
+.univero-envelope:before {
+  content: "\e905";
+}
+.univero-expand:before {
+  content: "\e90b";
+}
+.univero-emain:before {
+  content: "\e90d";
+}
+.univero-telephone:before {
+  content: "\e957";
+}
+.univero-phone:before {
+  content: "\e90e";
+}
+.univero-menu:before {
+  content: "\e913";
+}
+.univero-arrow-bottom:before {
+  content: "\e90f";
+}
+.univero-arrow-top:before {
+  content: "\e910";
+}
+.univero-arrow-left:before {
+  content: "\e911";
+}
+.univero-arrow-right:before {
+  content: "\e912";
+}
+.univero-arrow-left2:before {
+  content: "\e92f";
+}
+.univero-arrow-right2:before {
+  content: "\e930";
+}
+.univero-arrow-left3:before {
+  content: "\e931";
+}
+.univero-arrow-right3:before {
+  content: "\e932";
+}
+.univero-arrow-right4:before {
+  content: "\e935";
+}
+.univero-arrow-left4:before {
+  content: "\e936";
+}
+.univero-arrow-left5:before {
+  content: "\e939";
+}
+.univero-arrow-right5:before {
+  content: "\e93a";
+}
+.univero-next-track:before {
+  content: "\e93b";
+}
+.univero-previous:before {
+  content: "\e93c";
+}
+.univero-pause-button:before {
+  content: "\e93d";
+}
+.univero-ticket:before {
+  content: "\e940";
+}
+.univero-calendar2:before {
+  content: "\e941";
+}
+.univero-heart-outline:before {
+  content: "\e942";
+}
+.univero-clock:before {
+  content: "\e943";
+}
+.univero-asside:before {
+  content: "\e944";
+}
+.univero-image-gallery:before {
+  content: "\e945";
+}
+.univero-photo:before {
+  content: "\e946";
+}
+.univero-link:before {
+  content: "\e947";
+}
+.univero-audio:before {
+  content: "\e948";
+}
+.univero-info:before {
+  content: "\e949";
+}
+.univero-status:before {
+  content: "\e94a";
+}
+.univero-play:before {
+  content: "\e94b";
+}
+.univero-eye:before {
+  content: "\e94c";
+}
+.univero-user1:before {
+  content: "\e959";
+}
+.univero-user2:before {
+  content: "\e94d";
+}
+.univero-user3:before {
+  content: "\e95a";
+}
+.univero-speech-bubble:before {
+  content: "\e95b";
+}
+.univero-play-arrow:before {
+  content: "\e94e";
+}
+.univero-magnifier1:before {
+  content: "\e950";
+}
+.univero-magnifier2:before {
+  content: "\e953";
+}
+.univero-magnifier3:before {
+  content: "\e954";
+}
+.univero-magnifier4:before {
+  content: "\e955";
+}
+.univero-shop1:before {
+  content: "\e958";
+}
+.univero-shop2:before {
+  content: "\e915";
+}
+.univero-shop3:before {
+  content: "\e95c";
+}
+.univero-shop4:before {
+  content: "\e966";
+}
+.univero-shop5:before {
+  content: "\e967";
+}
+.univero-shop6:before {
+  content: "\e95d";
+}
+.univero-plus1:before {
+  content: "\e96b";
+}
+.univero-plus2:before {
+  content: "\e95e";
+}
+.univero-minus:before {
+  content: "\e95f";
+}
+.univero-plus3:before {
+  content: "\e971";
+}
+.univero-close-button1:before {
+  content: "\e906";
+}
+.univero-close-button2:before {
+  content: "\e907";
+}
+.univero-check-mark:before {
+  content: "\e908";
+}
+.univero-tick:before {
+  content: "\e960";
+}
+.univero-external-link:before {
+  content: "\e96d";
+}
+.univero-facebook:before {
+  content: "\e923";
+}
+.univero-twitter:before {
+  content: "\e922";
+}
+.univero-google-plus:before {
+  content: "\e921";
+}
+.univero-youtube:before {
+  content: "\e920";
+}
+.univero-linkedin:before {
+  content: "\e91e";
+}
+.univero-pinterest:before {
+  content: "\e91d";
+}
+.univero-instagram:before {
+  content: "\e91c";
+}
+.univero-vimeo:before {
+  content: "\e91f";
+}
+.univero-skype:before {
+  content: "\e91b";
+}
+.univero-apple:before {
+  content: "\e91a";
+}
+.univero-android:before {
+  content: "\e919";
+}
+.univero-dribbble:before {
+  content: "\e917";
+}
+.univero-behance:before {
+  content: "\e918";
+}
+.univero-flickr:before {
+  content: "\e916";
+}
+.univero-black-envelope:before {
+  content: "\e924";
+}
